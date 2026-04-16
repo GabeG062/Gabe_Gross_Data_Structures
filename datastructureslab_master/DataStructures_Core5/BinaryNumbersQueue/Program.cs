@@ -6,8 +6,7 @@ namespace BinaryNumbersQueue
     {
         static void Main(string[] args)
         {
-
-        }
             
+        }
     }
 }
