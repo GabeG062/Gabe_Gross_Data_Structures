@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Yahtzee
 {
@@ -62,11 +63,12 @@ namespace Yahtzee
         #region Scorecard Methods
 
         // sets all of the items in a scorecard to -1 to start the game
-        // takes a data structure for a scorecard and the corresponding score card count as parameters.  Both are altered by the method.
-        static void ResetScorecard(/* TODO */)
+        // takes a data structure for a scorecard and the corresponding scorecard count as parameters.  Both are altered by the method.
+        static void ResetScorecard( /* TODO */)
         {
+            
         }
-
+        
         // calculates the subtotal, bonus and the total for the scorecard
         // takes a data structure for a scorecard as it's parameter
         static void UpdateScorecard(/* TODO */)
@@ -281,7 +283,7 @@ namespace Yahtzee
         // counts the number of ones, twos, ... sixes in the set of dice
         // takes a data structure for a set of dice as it's parameter
         // returns a data structure that contains the count for each dice value
-        static /* TODO */ void GetCounts(/* TODO */)
+        static void GetCounts(/* TODO */)
         {
         }
 
